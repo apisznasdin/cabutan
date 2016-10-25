@@ -176,7 +176,7 @@ var myArray = ["AB SAN BIN ESIRI",
 "ZABIBAH BINTI SAMAT",
 "ZAINI BINTI WAN CHI",
 "ZURAIDA BINTI ZAINOL",
-"ZURAINI BINTI ABDULLAH HALIM",];
+"ZURAINI BINTI ABDULLAH HALIM"];
 
 function stopRoll() {
     var rand = myArray[Math.floor(Math.random() * myArray.length)]; nama.innerHTML = '<h2 class="alert alert-success" role="alert">Tahniah kepada <strong><span class="text-primary">' + rand + '</span></strong>! Anda adalah peserta bertuah yang terpilih pada hari ini.</h2>';
