@@ -103,5 +103,5 @@ function resetNama() {
 
 function roll() {
     var ct = $("#nama").data("term") || 0;
-    $("#nama").data("term", ct == myArray.length - 1 ? 0 : Math.floor(Math.random() * myArray.length)).text(myArray[ct]).fadeIn(200).fadeOut(200, roll);
+    $("#nama").data("term", ct == myArray.length - 1 ? 0 : Math.floor(Math.random() * myArray.length)).text(myArray[ct]).fadeIn(50).fadeOut(50, roll);
 }
